@@ -4,12 +4,10 @@
     box-sizing: border-box;
     font-family: k2d;
     color: black;
-    zoom:75%;
 }
 
 html, body, .wrapper{
     height: 100%;
-    margin:0;
 }
 .wrapper{
     background-image: url(IMG/pexels-pixabay-531829.jpg); 
@@ -17,19 +15,22 @@ html, body, .wrapper{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50%;
+    /** from background-position: 50%;**/
+    background-position: center;
 }
 .header{
     background-color: black;
     min-height: 80px;
-    max-width: 100vw;
+    /** from max-width: 100vw;**/
+    width: 100%;
     position: sticky;
     top:0;
     padding: 10px;
 }
 .headcontent{
     display: flex;
-    align-content: center;
+    /**align-content: center;**/
+    align-items:center;
     margin-left: 15px;
 }
 #logo{
@@ -42,7 +43,8 @@ html, body, .wrapper{
     color: white;
     padding-top: 10px;
     font-family: langar;
-    font-size: 35px;
+    /**from 35px**/
+    font-size: 2rem;
 }
 
 #info{
