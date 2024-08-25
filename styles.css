@@ -58,7 +58,7 @@ html, body, .wrapper{
     flex-direction: column;
     position: sticky;
     float: right;
-    height: calc(100vh - 81px);
+    height: calc(100vh - 100px);
     background-color: #ECDAC780;
     min-width: 530px;
     backdrop-filter: blur(70px);
@@ -124,8 +124,6 @@ input[type="button"]{
     margin-top: auto;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    min-height: calc(100vh - 1600px);
 }
 footer{
     display: flex;
