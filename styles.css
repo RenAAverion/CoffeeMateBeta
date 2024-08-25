@@ -8,6 +8,7 @@
 
 html, body, .wrapper{
     height: 100%;
+    margin:0;
 }
 .wrapper{
     background-image: url(IMG/pexels-pixabay-531829.jpg); 
@@ -15,22 +16,19 @@ html, body, .wrapper{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /** from background-position: 50%;**/
-    background-position: center;
+    background-position: 50%;
 }
 .header{
     background-color: black;
     min-height: 80px;
-    /** from max-width: 100vw;**/
-    width: 100%;
+    max-width: 100vw;
     position: sticky;
     top:0;
     padding: 10px;
 }
 .headcontent{
     display: flex;
-    /**align-content: center;**/
-    align-items:center;
+    align-content: center;
     margin-left: 15px;
 }
 #logo{
@@ -43,8 +41,7 @@ html, body, .wrapper{
     color: white;
     padding-top: 10px;
     font-family: langar;
-    /**from 35px**/
-    font-size: 2rem;
+    font-size: 35px;
 }
 
 #info{
