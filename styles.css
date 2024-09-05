@@ -147,7 +147,6 @@ footer{
 footer a{
     margin-top: 10px;
     flex: 1 1 40%;
-    /* Adjusts the width of each item */
     text-decoration: none;
     
 }
